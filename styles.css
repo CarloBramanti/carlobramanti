@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: 'Louize', serif;
+    background: url('path/to/your/background-image.jpg') no-repeat center center; /* Center the background image */
+    background-attachment: fixed; /* Keeps the background fixed when scrolling */
+}
+.bg-image {
+    background-image: url(Fuller.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+
+}
+
+.title {
+    font-family: 'Marr Sans'; /* Use the Marr Sans font */
+    font-size: 12pt; /* Set font size to 15pt */
+    text-align: center; /* Center the title */
+    color: black; /* Set the color of the title */
+    position: relative; /* Allow layering with z-index */
+    text-align: left;
+}
+
+.header {
+    padding: 20px 20px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.bodytext {
+    justify-content: left;
+    padding: 0px 20px;
+
+}
+
+.intro-text {
+    font-size: 18pt;
+    font-weight: normal;
+    text-align: left;
+    max-width: 680px; /* Adjust as needed */
+    line-height: 1.2;
+    color: #000;
+
+}
+
+.nav-link {
+    font-size: 18pt;
+    color: 0;
+    margin: 15px;
+
+}
+
+
+
+.main-content {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Full height of the viewport */
+    width: 100vw; /* Full width of the viewport */
+    position: absolute;
+    top: 0;
+}
+
+.center-image {
+    max-width: 80%; /* Adjust the width to a smaller percentage if needed */
+    max-height: 80%; /* Set the max height to 80% of the viewport */
+    width: auto; /* Maintain aspect ratio */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Keeps the aspect ratio */
+}
+
+a{
+    color: black;
+}
+
+@font-face {
+    font-family: 'Marr Sans';
+    src: url('Fonts/MarrSans-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Louize';
+    src: url('Fonts/Louize-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+}
